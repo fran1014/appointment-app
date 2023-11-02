@@ -13,5 +13,7 @@ export class AppointmentListComponent {
 
   appointments: Appointment [] = []
 
-  addAppointment(){}
+  addAppointment(){
+    alert(this.newAppointmentTitle + "" + this.newAppointmentDate)
+  }
 }
